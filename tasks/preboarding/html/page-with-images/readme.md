@@ -21,7 +21,7 @@ Orange:
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Mentoring of Danyl Marymovych</title>
+        <title>Mentoring of Oleh Kozak</title>
     </head>
     <body>
         <section id="lemon">
@@ -59,7 +59,7 @@ Orange:
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Mentoring of Danyl Marymovych</title>
+        <title>Mentoring of Oleh Kozak</title>
     </head>
     <body>
         <section id="lemon">

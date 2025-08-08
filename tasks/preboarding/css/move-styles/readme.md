@@ -12,7 +12,7 @@ index.html **to**:
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>Mentoring of Danyl Marymovych</title>
+      <title>Mentoring of Oleh Kozak</title>
   </head>
   <body>
       <h1 style="font-size: 8px;">Heading Title</h1>
@@ -26,7 +26,7 @@ index.html **after**:
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>Mentoring of Danyl Marymovych</title>
+      <title>Mentoring of Oleh Kozak</title>
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -58,7 +58,7 @@ index.html **до**:
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>Mentoring of Danyl Marymovych</title>
+      <title>Mentoring of Oleh Kozak</title>
   </head>
   <body>
       <h1 style="font-size: 8px;">Heading Title</h1>
@@ -72,7 +72,7 @@ index.html **після**:
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>Mentoring of Danyl Marymovych</title>
+      <title>Mentoring of Oleh Kozak</title>
       <link rel="stylesheet" href="style.css">
   </head>
   <body>
