@@ -1,0 +1,283 @@
+#app-cover {
+    font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+    position: absolute;
+    top: 70px;
+    right: 435px;
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.basket {
+    position: absolute;
+    top: 74px;
+    right: 395px;
+    cursor: pointer;
+    width: 24px;
+    height: 22px;
+}
+
+#select-button {
+    position: relative;
+    height: 20px;
+    padding: 8px 3px;
+    color: #fff;
+    background: #0f0f0f;
+    border: none;
+    cursor: pointer;
+}
+
+#options-view-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#selected-value {
+    font-size: 18px;
+    line-height: 1;
+}
+
+option,
+.label {
+    font-size: 16px;
+}
+
+#chevrons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    padding: 7px 2px;
+}
+
+#options {
+    position: absolute;
+    top: 35px;
+    left: -9px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.option {
+    position: relative;
+    line-height: 1;
+    transition: 0.3s ease all;
+    z-index: 2;
+}
+
+.option i {
+    position: absolute;
+    left: 14px;
+    padding: 0;
+    display: none;
+}
+
+#options-view-button:checked~#options .option i {
+    display: block;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.label {
+    display: none;
+    cursor: pointer;
+}
+
+#options-view-button:checked~#options .label {
+    display: block;
+    padding: 12px 15px;
+}
+
+#options-view-button:checked~#options .option i {
+    display: block;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.s-c {
+    position: absolute;
+    left: 0;
+}
+
+.s-c.top {
+    top: 0;
+}
+
+.s-c.bottom {
+    bottom: 1px;
+    height: 40px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.s-c:hover~i {
+    color: #fff;
+    opacity: 0;
+}
+
+.s-c:hover {
+    z-index: 1;
+}
+
+.s-c.bottom:hover+i {
+    bottom: -25px;
+    animation: moveup 0.3s ease 0.1s forwards;
+}
+
+.s-c.top:hover~i {
+    top: -25px;
+    animation: movedown 0.3s ease 0.1s forwards;
+}
+
+@keyframes moveup {
+    0% {
+        bottom: -25px;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes movedown {
+    0% {
+        top: -25px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.label {
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+.opt-val {
+    position: absolute;
+    left: 11px;
+    height: 21px;
+    opacity: 0;
+    font-size: 17px;
+    background-color: #0f0f0f;
+    color: #fff;
+    transform: scale(0);
+    cursor: pointer;
+    padding: 3px;
+}
+
+.option input[type="radio"]:checked~.opt-val {
+    opacity: 1;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.option input[type="radio"]:checked~i {
+    top: 0;
+    bottom: auto;
+    opacity: 1;
+    animation: unset;
+}
+
+.option input[type="radio"]:checked~i,
+.option input[type="radio"]:checked~.label {
+    color: #fff;
+}
+
+.option input[type="radio"]:checked~.label:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#options-view-button:not(:checked)~#options .option input[type="radio"]:checked~.opt-val {
+    top: -30px;
+}
+
+.option:nth-child(1) input[type="radio"]:checked~.label {
+    color: #777777;
+}
+
+.option:nth-child(1) input[type="radio"]:checked~.opt-val {
+    top: -31px;
+}
+
+.option:nth-child(2) input[type="radio"]:checked~.label {
+    color: #777777;
+}
+
+.option:nth-child(2) input[type="radio"]:checked~.opt-val {
+    top: -71px;
+}
+
+.option:nth-child(3) input[type="radio"]:checked~.label {
+    color: #777777;
+}
+
+.option:nth-child(3) input[type="radio"]:checked~.opt-val {
+    top: -111px;
+}
+
+#option-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    transition: 0.3s ease all;
+    z-index: 1;
+    display: none;
+}
+
+#options-view-button:checked~#options #option-bg {
+    display: block;
+}
+
+.option:hover .label {
+    color: #fff;
+}
+
+.option:nth-child(1):hover~#option-bg {
+    top: 0;
+    background-color: #000;
+    border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.option:nth-child(2):hover~#option-bg {
+    top: 40px;
+    background-color: #000;
+}
+
+.option:nth-child(3):hover~#option-bg {
+    top: 80px;
+    background-color: #000;
+    border-radius: 0px 0px 4px 4px;
+}

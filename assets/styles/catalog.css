@@ -1,0 +1,220 @@
+.outMargin {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.secondaryHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 90px;
+    padding: 0;
+    margin-bottom: 85px;
+    font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+}
+
+.aloneBlock:hover:before,
+.aloneBlock:hover:after,
+.aloneBlock:hover .buyButton:before,
+.aloneBlock:hover .buyButton:after {
+    opacity: 1;
+}
+
+.aloneBlock:before,
+.aloneBlock:after,
+.buyButton:before,
+.buyButton:after {
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+.aloneBlock {
+    width: 404px;
+    height: 444px;
+    border-radius: 15px;
+    padding: 65px 8px 48px 8px;
+    background-color: rgba(255, 255, 255, 3);
+    box-shadow: 0 1px 3px 0 #d5d5d5;
+    margin: 20px;
+    margin-bottom: 210px;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transition: background-color 0.5s;
+}
+
+.buyButton:hover {
+    transition: opacity 0.5s;
+    background-color: #000;
+    color: #fff;
+}
+
+.aloneBlock:hover .buyButton[data-text]::after {
+    content: attr(data-text);
+    opacity: 1;
+}
+
+.images {
+    width: 404px;
+    height: 444px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.priceAlone {
+    font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px 0px 15px 0px;
+    background-color: #000;
+    padding: 13px;
+    width: 130px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aloneBlock:after {
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity .5s;
+    border-radius: 15px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.aloneBlock:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.aloneBlock:hover:before,
+.aloneBlock:hover:after {
+    opacity: 1;
+}
+
+.buyButton {
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    background: #ffff;
+    text-transform: uppercase;
+    width: 374px;
+    height: 54px;
+    font-size: 18px;
+    border-radius: 79px;
+    box-shadow: 0 1px 3px 0 #d5d5d5;
+    margin: 100px 20px 0 20px;
+    font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+    position: relative;
+    display: inline-block;
+}
+
+.aloneBlock {
+    position: relative;
+    text-align: center;
+}
+
+.buyButton {
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    background: #ffff;
+    text-transform: uppercase;
+    width: 374px;
+    height: 54px;
+    font-size: 18px;
+    border-radius: 79px;
+    box-shadow: 0 1px 3px 0 #d5d5d5;
+    font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+    position: relative;
+    display: inline-block;
+}
+
+.buyButton:after {
+    color: #fff;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.5s;
+    align-items: center;
+    border-radius: 79px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.buyButtonWhite {
+    border-radius: 79px;
+    transition: opacity 0.5s;
+    background: #000000;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 374px;
+    height: 54px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:0;
+    left:0;
+}
+
+.extraButton {
+    background: rgba(255, 255, 255, 1);
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    display: none;
+    font-size: 18px;
+    font-weight: 400;
+    height: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s, filter 0.5s;
+    font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+    opacity: 1;
+    width: 235px;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+}
+.aloneBlock:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.aloneBlock:hover .extraButton {
+    display: block;
+}
+.extraButton:hover {
+    opacity: 0.6;
+}
+.buyButton:nth-child(n):hover:before,
+.buyButton:hover:after {
+    opacity: 1;
+}
