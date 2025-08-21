@@ -1,0 +1,104 @@
+.positionTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 240px 690px 0;
+    z-index: 3;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #F6F6F6;
+    font-family:'PostNoBillsJaffna-Bold', sans-serif, Arial, Helvetica;;
+}
+
+.positionLine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin: 13% 0 0;
+    z-index: 3;
+}
+
+.line {
+    margin: 245px 38% 0;
+    width: 368px;
+    height: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.positionButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin: 560px 33% 0;
+    z-index: 3;
+}
+
+.scrolling {
+    color: #000;
+}
+
+.button {
+    font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;;
+    line-height: 4;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    height: 87px;
+    width: 344px;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #abaeb1;
+    border-radius: 4px;
+}
+
+.button:focus {
+    background: #2a2a2a;
+}
+
+.positionText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 720px 24% 0;
+    text-align: center;
+    z-index: 3;
+}
+
+.introductoryText {
+    color: #F6F6F6;
+    font-size: 16px;
+    font-family: 'Montserrat-VariableFont', sans-serif, Arial, Helvetica;;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;
+    z-index: 5;
+}
+

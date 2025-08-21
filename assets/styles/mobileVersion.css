@@ -1,0 +1,2194 @@
+@media only screen and (max-width: 1800px) {
+    body .positionBlocks1 {
+        position: absolute;
+        right: 350px;
+        top: 105px;
+
+    }
+
+    body .positionLine {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 13% 0 0;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 247px 633px 0;
+        z-index: 3;
+    }
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 520px 33% 0;
+        z-index: 3;
+    }
+
+    body .positionText {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 665px 24% 0;
+        text-align: center;
+        z-index: 3;
+    }
+
+    body .positionlogoTCSFooter {
+        position: absolute;
+        left: 110px;
+        top: 70px;
+    }
+
+    body .positionlogoInstFooter {
+        position: absolute;
+        left: 325px;
+        top: 140px;
+    }
+
+    body .positionBlocks2 {
+        position: absolute;
+        right: 80px;
+        top: 105px;
+        width: 250px;
+    }
+
+    body .linkFooter {
+        font-size: 20px;
+        margin: 0px 115px 0 0;
+    }
+
+    body .logoTCSFooter {
+        height: 200px;
+        width: 220px;
+    }
+
+    body .contentFooter {
+        justify-content: center;
+    }
+
+    body .footerDelivery {
+        position: absolute;
+        top: 255px;
+        right: 90px;
+    }
+
+    body .paymentInformation {
+        font-size: 18px;
+    }
+
+    body .footerDelivery {
+        font-size: 16px;
+        position: absolute;
+        top: 260px;
+        right: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+
+        body .linkFooter {
+            font-size: 19px;
+            margin: 0px 105px 0 0;
+        }
+
+        body .positionlogoTCSFooter {
+            position: absolute;
+            left: 100px;
+            top: 70px;
+        }
+
+        body .logoTCSFooter {
+            height: 200px;
+            width: 200px;
+        }
+
+    body .emailSide {
+        font-size: 18px;
+
+    }
+
+    body .imagesService {
+        height: 75px;
+        margin: 5px;
+    }
+
+    body .smallPaymentPictures {
+        height: 20px;
+        margin: 5px;
+    }
+
+    body .positionlogoTCSFooter {
+        position: absolute;
+        left: 105px;
+        top: 70px;
+    }
+
+    body .positionlogoInstFooter {
+        position: absolute;
+        left: 305px;
+        top: 140px;
+    }
+
+    body .footerDelivery {
+        position: absolute;
+        top: 255px;
+        right: 90px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 247px 583px 0;
+        z-index: 3;
+    }
+
+    body .line {
+        margin: 257px 38% 0;
+        width: 368px;
+        height: 3px;
+        cursor: pointer;
+        border-radius: 3px;
+        background-color: #fff;
+    }
+
+    body .introductoryText {
+        color: #F6F6F6;
+        font-size: 14px;
+        font-family: 'Montserrat-VariableFont', sans-serif, Arial, Helvetica;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        z-index: 5;
+    }
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 247px 520px 0;
+        z-index: 3;
+    }
+    body .introductoryText {
+        color: #F6F6F6;
+        font-size: 14px;
+        font-family: 'Montserrat-VariableFont', sans-serif, Arial, Helvetica;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        z-index: 5;
+    }
+    body .positionLine {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 220px 0 0;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+
+    body .introductoryText {
+        color: #F6F6F6;
+        font-size: 14px;
+        font-family: 'Montserrat-VariableFont', sans-serif, Arial, Helvetica;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        z-index: 5;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 247px 468px 0;
+        z-index: 3;
+    }
+
+    body .linkFooter {
+        font-size: 18px;
+        margin: 0px 95px 0 0;
+    }
+
+    body .imagesBlock {
+        height: 55px;
+    }
+
+    body .link {
+        margin: 0px 85px 0 0;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    body .block:after {
+        background: rgba(0,0,0,0.6);
+        transition: opacity .5s;
+        border-radius: 150px;
+        height: 55px;
+        cursor: pointer;
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    body .block:after {
+        background: rgba(0,0,0,0.6);
+        transition: opacity .5s;
+        border-radius: 150px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 247px 416px 0;
+        z-index: 3;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 68px;
+        right: 205px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 71px;
+        right: 170px;
+        cursor: pointer;
+    }
+
+    body .positionTextPhone {
+     position: absolute;
+     top: 15px;
+     left: 140px;
+    }
+
+    body .positionPhoneLogo {
+        position: absolute;
+        left: 120px;
+        top: 15px;
+    }
+
+    body .positionAccountLogin2 {
+        position: absolute;
+        right: 140px;
+        top: 17px;
+    }
+
+    body .positionAccountLogin1 {
+        position: absolute;
+        right: 180px;
+        top: 12px;
+    }
+
+    body .positionArrowLogo {
+        position: absolute;
+        right: 262px;
+        top: 19px;
+    }
+
+    body .positionDoorLogo {
+        position: absolute;
+        right: 260px;
+        top: 15px;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 44px;
+        left: 150px;
+    }
+
+    body .link {
+        font-size: 17px;
+        margin: 0 75px 0 0;
+    }
+
+    body .linkFooter {
+        font-size: 17px;
+        margin: 0px 95px 0 0;
+    }
+
+    body .paymentInformation {
+        font-size: 17px;
+    }
+
+    body .positionBlocks1 {
+        position: absolute;
+        right: 290px;
+        top: 95px;
+    }
+
+    body .positionBlocks1 {
+        position: absolute;
+        right: 290px;
+        top: 95px;
+    }
+
+    body .positionBlocks2 {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 95px;
+    }
+
+    body .footerDelivery {
+        font-size: 17px;
+        position: absolute;
+        top: 240px;
+        right: 50px;
+    }
+
+    body .email {
+        font-size: 17px;
+    }
+
+    body .workSupport {
+        font-size: 17px;
+    }
+
+    body .emailSide {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    body .workTime {
+        font-size: 17px;
+    }
+
+    body .imagesService {
+        height: 70px;
+        margin: 5px;
+    }
+
+    body .smallPaymentPictures {
+        height: 25px;
+        margin: 5px;
+    }
+
+    body .smallPaymentPictures {
+        height: 21px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    body .linkFooter {
+        font-size: 16px;
+        margin: 0px 75px 0 0;
+    }
+
+    body .logoTCSFooter {
+        height: 200px;
+        width: 195px;
+    }
+}
+
+@media only screen and (max-width: 1367px){
+    body .arrow {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1380px){
+    body .outMargin {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 920px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    body .linkFooter {
+        font-size: 16px;
+        margin: 0px 70px 0 0;
+    }
+
+    body .link {
+        font-size: 16px;
+        margin: 0px 70px 0 0;
+    }
+
+    body .positionlogoInstFooter {
+        position: absolute;
+        left: 295px;
+        top: 141px;
+    }
+
+    body .positionBlocks1 {
+        position: absolute;
+        right: 290px;
+        top: 100px;
+    }
+
+    body .positionBlocks2 {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 100px;
+    }
+
+    body .positionText {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 652px 15% 0;
+        text-align: center;
+        z-index: 3;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    body .positionPhoneLogo {
+        position: absolute;
+        left: 35px;
+        top: 15px;
+    }
+
+    body .positionTextPhone {
+        position: absolute;
+        top: 15px;
+        left: 55px;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 247px 368px 0;
+        z-index: 3;
+    }
+
+    body .linkFooter {
+        font-size: 16px;
+        margin: 0px 70px 0 0;
+    }
+
+    body .link {
+        font-size: 15px;
+        margin: 0px 65px 0 0;
+    }
+
+    body .imagesBlock {
+        height: 50px;
+    }
+
+    body .logoTCSFooter {
+        height: 200px;
+        width: 180px;
+    }
+
+    body .positionlogoInstFooter {
+        position: absolute;
+        left: 285px;
+        top: 142px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body .title {
+        font-size: 56px;
+        font-weight: 700;
+        color: #F6F6F6;
+        font-family: 'PostNoBillsJaffna-Bold', sans-serif, Arial, Helvetica;
+    }
+
+    body .positionLine {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 230px 0 0;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 294px 309px;
+        z-index: 3;
+    }
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 530px 33% 0;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 294px 367px;
+        z-index: 3;
+    }
+
+    body .button {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        line-height: 4;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 19px;
+        font-weight: normal;
+        height: 82px;
+        width: 332px;
+        border-radius: 4px;
+        background-color: #f6f6f6;
+    }
+}
+
+@media only screen and (max-width: 1112px) {
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 298px 309px;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    body .positionText {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 652px 5% 0;
+        text-align: center;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 294px 312px;
+        z-index: 3;
+    }
+
+    body .title {
+        font-size: 54px;
+        font-weight: 700;
+        color: #F6F6F6;
+        font-family: 'PostNoBillsJaffna-Bold', sans-serif, Arial, Helvetica;
+    }
+
+    body .link {
+        font-size: 15px;
+        margin: 0px 55px 0 0;
+    }
+
+    body .linkFooter {
+        font-size: 16px;
+        margin: 0px 65px 0 0;
+    }
+
+    body .email {
+        font-size: 16px;
+    }
+
+    body .paymentInformation {
+        font-size: 16px;
+    }
+
+    body .workSupport {
+        font-size: 16px;
+    }
+
+    body .footerDelivery {
+        font-size: 16px;
+        position: absolute;
+        top: 240px;
+        right: 50px;
+    }
+
+    body .positionBlocks1 {
+        position: absolute;
+        right: 290px;
+        top: 105px;
+    }
+
+    body .positionBlocks2 {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 105px;
+    }
+
+    body .footerDelivery {
+        font-size: 15px;
+        position: absolute;
+        top: 245px;
+        right: 50px;
+    }
+
+    body .positionlogoInstFooter {
+        position: absolute;
+        left: 240px;
+        top: 143px;
+    }
+
+    body .logoTCSFooter {
+        height: 200px;
+        width: 180px;
+    }
+
+    body .positionlogoTCSFooter {
+        position: absolute;
+        left: 55px;
+        top: 70px;
+    }
+
+    body .positionlogoInstFooter {
+        position: absolute;
+        left: 235px;
+        top: 143px;
+    }
+}
+
+body .openbtn {display: none}
+
+body .sidepanel {display: none}
+
+body .mobileLogoTCS {display: none}
+
+@media only screen and (max-width: 1030px) {
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 294px 309px;
+        z-index: 3;
+    }
+
+    body .title {
+        font-size: 53px;
+        font-weight: 700;
+        color: #F6F6F6;
+        font-family: 'PostNoBillsJaffna-Bold', sans-serif, Arial, Helvetica;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 71px;
+        right: 170px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 68px;
+        right: 205px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .mobileLogoTCS {
+        position: absolute;
+        left: 50%;
+        bottom: -60px;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        height: 130px;
+        display: block;
+    }
+
+    body .logoTCSFooter {
+        display: none;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 44px;
+        left: 80px;
+    }
+
+    body .positionlogoTCSFooter {
+        position: absolute;
+        top: 75px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    body .positionTextPhone {
+        position: absolute;
+        top: 15px;
+        left: 55px;
+        font-size: 11px;
+    }
+
+    body .paymentInformation {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    body .logoTCSFooter {
+        height: 200px;
+        width: 190px;
+    }
+
+    body .footer {
+        display: block;
+        padding: 0;
+        width: 100%;
+        height: 450px;
+        animation: changing 35s infinite;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    body .positionBlocks1 {
+        position: absolute;
+        top: 105px;
+        left: 50%;
+        margin-right: -51%;
+        margin-bottom: 56px;
+        transform: translate(-50%, -50%);
+    }
+
+    body .positionBlocks2 {
+        display: inline-block;
+        position: absolute;
+        top: 265px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
+    body .imagesBlock {
+       display: none;
+    }
+
+    body .imgPaymentSystem {
+        margin-left: 30px;
+    }
+
+    body .workSupport {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    body .emailSide {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    body .email {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    body .workTime {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    body .workSupport {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    body .footerDelivery {
+        display: none;
+    }
+
+    body .contentFooter {
+        display: none;
+    }
+
+    body .sidepanel {
+        display: block;
+    }
+
+    body .navContainer {
+        display: none;
+    }
+
+
+    body .sidepanel {
+        width: 0;
+        position: fixed;
+        height: 100%;
+        top: 125px;
+        right: 0;
+        background-color: #0f0f0f;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        z-index: 3;
+    }
+
+    body .sidepanel a {
+        padding: 8px 8px 8px 10px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        margin: 10px;
+    }
+
+    body .secondaryHeading {
+        font-size: 40px;
+        margin-bottom: 85px;
+    }
+
+    body .sidepanel a:hover {
+        color: #f1f1f1;
+    }
+
+    body .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 53px;
+        right: 50px;
+        z-index: 4;
+        font-size: 31px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        display: inline-block;
+    }
+
+    body .openbtn:hover {
+        background-color:#444;
+    }
+
+    body .linkSize {
+        font-size: 24px;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+
+    body .outMargin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1400px;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 40px;
+        right: 175px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 43px;
+        right: 135px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 289px 266px;
+        z-index: 3;
+    }
+
+    body .aloneBlock {
+        width: 449px;
+        height: 444px;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 410px;
+        height: 54px;
+        font-size: 20px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 100px 20px 0 20px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .priceAlone {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        text-align: center;
+        font-size: 23px;
+        border-radius: 15px 0px 15px 0px;
+        background-color: #000;
+        padding: 13px;
+        width: 130px;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    body .secondaryHeading {
+        font-size: 45px;
+        margin-bottom: 85px;
+    }
+
+    body .secondaryHeading {
+        font-size: 42px;
+        margin-bottom: 85px;
+    }
+
+    body .oneInformation {
+        display: none;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 24px;
+        right: 50px;
+        z-index: 4;
+        font-size: 31px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        display: inline-block;
+    }
+
+    body .twoInformation {
+        height: 105px;
+        background: #0f0f0f;
+        font-family: 'PTSans-Regular', sans-serif, Arial, Helvetica;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 0px;
+        left: 35px;
+        height: 110px;
+    }
+
+    body .sidepanel {
+        width: 0;
+        position: fixed;
+        z-index: 3;
+        height: 100%;
+        top: 90px;
+        right: 0;
+        background-color: #0f0f0f;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+}
+
+@media (max-width: 970px) {
+
+    body .line {
+        margin: 257px 34% 0;
+        width: 368px;
+        height: 3px;
+        cursor: pointer;
+        border-radius: 3px;
+        background-color: #fff;
+    }
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 540px 33% 0;
+        z-index: 3;
+    }
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 540px 32% 0;
+        z-index: 3;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 44px;
+        right: 134px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 42px;
+        right: 170px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 473px;
+        height: 63px;
+        font-size: 25px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 100px 20px 0 20px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 17px;
+        right: 50px;
+        z-index: 4;
+        font-size: 40px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        display: inline-block;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 3px;
+        left: 80px;
+        height: 105px;
+    }
+
+    body .secondaryHeading {
+        font-size: 47px;
+        margin-bottom: 70px;
+    }
+
+    body .aloneBlock {
+        width: 505px;
+        height: 470px;
+    }
+
+    body .images {
+        width: 450px;
+        height: 485px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .priceAlone {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        text-align: center;
+        font-size: 26px;
+        border-radius: 15px 0px 15px 0px;
+        background-color: #000;
+        padding: 13px;
+        width: 148px;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 289px 211px;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 781px){
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 289px 164px;
+        z-index: 3;
+    }
+
+    body .introductoryText {
+        color: #F6F6F6;
+        font-size: 12px;
+        font-family: 'Montserrat-VariableFont', sans-serif, Arial, Helvetica;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        z-index: 5;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 40px;
+        right: 180px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 43px;
+        right: 140px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 540px 30% 0;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 540px 29% 0;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 289px 73px;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 288px 111px;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 540px 28% 0;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 540px 26% 0;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 288px 66px;
+        z-index: 3;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 3px;
+        left: 40px;
+        height: 105px;
+    }
+
+    body .aloneBlock {
+        width: 459px;
+        height: 435px;
+        margin-bottom: 170px;
+    }
+
+    body .images {
+        width: 410px;
+        height: 440px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .secondaryHeading {
+        font-size: 45px;
+        margin-bottom: 60px;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 429px;
+        height: 60px;
+        font-size: 23px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 85px 0px 0px 15px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-height: 670px) {
+    body .introductoryText {
+        display: none;
+    }
+}
+@media only screen and (max-width: 550px){
+
+    body .introductoryText {
+        color: #F6F6F6;
+        font-size: 10px;
+        font-family: 'Montserrat-VariableFont', sans-serif, Arial, Helvetica;
+        font-weight: 500;
+        line-height: 150%;
+        text-transform: uppercase;
+        z-index: 2;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 43px;
+        right: 116px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 40px;
+        right: 155px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 3px;
+        left: 20px;
+        height: 105px;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 17px;
+        right: 30px;
+        z-index: 4;
+        font-size: 40px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        display: inline-block;
+    }
+
+    body .secondaryHeading {
+        font-size: 44px;
+        margin-bottom: 40px;
+    }
+
+    body .aloneBlock {
+        width: 440px;
+        height: 420px;
+        margin-bottom: 150px;
+    }
+
+    body .images {
+        width: 380px;
+        height: 405px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .priceAlone {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        text-align: center;
+        font-size: 23px;
+        border-radius: 15px 0px 15px 0px;
+        background-color: #000;
+        padding: 12px;
+        width: 148px;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    body .images {
+        width: 380px;
+        height: 405px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 430px;
+        height: 60px;
+        font-size: 23px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 95px 0px 0px 10px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .secondaryHeading {
+        font-size: 42px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    body .introductoryText {
+        display: none;
+    }
+
+    body .line {
+        margin: 257px 21% 0;
+        width: 368px;
+        height: 3px;
+        cursor: pointer;
+        border-radius: 3px;
+        background-color: #fff;
+    }
+
+    body .aloneBlock {
+        width: 370px;
+        height: 375px;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 288px 16px;
+        z-index: 3;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 40px;
+        right: 137px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 43px;
+        right: 103px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body .images {
+        width: 340px;
+        height: 390px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 360px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 80px 0px 0px 5px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .secondaryHeading {
+        font-size: 42px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 540px 20% 0;
+        z-index: 3;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    body .productInfo {
+        justify-content: center;
+        margin-top: 0px;
+        width: 90vw;
+    }
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 525px 11% 0;
+        z-index: 3;
+    }
+
+    body .positionTitle {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 288px 0px;
+        z-index: 3;
+    }
+
+    body .secondaryHeading {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    body .aloneBlock {
+        width: 328px;
+        height: 345px;
+        margin-bottom: 110px;
+    }
+
+    body .images {
+        width: 305px;
+        height: 360px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 320px;
+        height: 50px;
+        font-size: 18px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 60px 0px 0px 5px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        z-index: 4;
+        font-size: 35px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        display: inline-block;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 3px;
+        left: 15px;
+        height: 100px;
+    }
+
+    body .priceAlone {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        text-align: center;
+        font-size: 22px;
+        border-radius: 15px 0px 15px 0px;
+        background-color: #000;
+        padding: 10px;
+        width: 148px;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 18px;
+        right: 30px;
+        z-index: 4;
+        font-size: 35px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        display: inline-block;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    body .productInfo {
+        justify-content: center;
+        margin-top: -15px;
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    body .extraButton {
+        background: rgba(255, 255, 255, 1);
+        color: #000000;
+        border-radius: 50px;
+        cursor: pointer;
+        display: none;
+        font-size: 17px;
+        font-weight: 400;
+        height: 45px;
+        letter-spacing: 1px;
+        position: absolute;
+        text-transform: uppercase;
+        transform: translate(-50%, -50%);
+        transition: opacity 0.5s, filter 0.5s;
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        opacity: 1;
+        width: 185px;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+    }
+
+    body .buyButton:after {
+        color: #fff;
+        background: #000000;
+        display: flex;
+        justify-content: center;
+        transition: opacity 0.5s;
+        align-items: center;
+        border-radius: 79px;
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+
+    body .productInfo {
+        justify-content: center;
+        margin-top: -35px;
+        width: 90vw;
+    }
+
+    body .title {
+        font-size: 50px;
+        font-weight: 700;
+        color: #F6F6F6;
+        font-family: 'PostNoBillsJaffna-Bold', sans-serif, Arial, Helvetica;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 39px;
+        right: 130px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 42px;
+        right: 98px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body .aloneBlock {
+        width: 285px;
+        height: 300px;
+    }
+
+    body .images {
+        width: 299px;
+        height: 330px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+     .priceAlone{
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        text-align: center;
+        font-size: 21px;
+        border-radius: 15px 0px 15px 0px;
+        background-color: #000;
+        padding: 9px;
+        width: 135px;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    body .images {
+        width: 275px;
+        height: 330px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 280px;
+        height: 45px;
+        font-size: 17px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 60px 0px 0px 0px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .secondaryHeading {
+        font-size: 37px;
+        margin-bottom: 40px;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        height: 90px;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 20px;
+        right: 25px;
+        z-index: 4;
+        font-size: 35px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    body .productInfo {
+        justify-content: center;
+        margin-top: -40px;
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body .productInfo {
+        justify-content: center;
+        margin-top: -70px;
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    body .button {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        line-height: 4;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: normal;
+        height: 82px;
+        width: 332px;
+        border-radius: 4px;
+        background-color: #f6f6f6;
+    }
+
+    body .positionButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 525px 12% 0;
+        z-index: 3;
+    }
+
+    body .title {
+        font-size: 45px;
+        font-weight: 700;
+        color: #F6F6F6;
+        font-family: 'PostNoBillsJaffna-Bold', sans-serif, Arial, Helvetica;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 40px;
+        right: 74px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body .positionLine {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        margin: 211px 0 0;
+        z-index: 3;
+    }
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 37px;
+        right: 108px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .aloneBlock {
+        width: 240px;
+        height: 270px;
+    }
+
+    body .images {
+        width: 240px;
+        height: 280px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 230px;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 70px 0px 0px 5px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .buyButton:after {
+        color: #fff;
+        background: #000000;
+        display: flex;
+        justify-content: center;
+        transition: opacity 0.5s;
+        align-items: center;
+        font-size: 16px;
+        border-radius: 79px;
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+    }
+
+    body .secondaryHeading {
+        font-size: 33px;
+        margin-bottom: 30px;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        height: 85px;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        z-index: 4;
+        font-size: 35px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 8px 17px;
+        border: none;
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (max-width: 310px){
+    body .title {
+        font-size: 42px;
+        font-weight: 700;
+        color: #F6F6F6;
+        font-family: 'PostNoBillsJaffna-Bold', sans-serif, Arial, Helvetica;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    body #app-cover {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        position: absolute;
+        top: 33px;
+        right: 85px;
+        width: 30px;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    body .basket {
+        position: absolute;
+        top: 36px;
+        right: 53px;
+        cursor: pointer;
+        height: 24px;
+        width: 25px;
+    }
+
+    body .aloneBlock {
+        width: 220px;
+        height: 250px;
+    }
+
+    body .images {
+        width: 220px;
+        height: 260px;
+        justify-content: center;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 215px;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 70px 0px 0px 0px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .priceAlone {
+        font-family: 'Roboto-Regular', sans-serif, Arial, Helvetica;
+        text-align: center;
+        font-size: 19px;
+        border-radius: 15px 0px 15px 0px;
+        background-color: #000;
+        padding: 9px;
+        width: 115px;
+        text-transform: uppercase;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    body .secondaryHeading {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    body .buyButton {
+        border: none;
+        cursor: pointer;
+        color: #000000;
+        background: #ffff;
+        text-transform: uppercase;
+        width: 215px;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 79px;
+        box-shadow: 0 1px 3px 0 #d5d5d5;
+        margin: 70px 0px 0px 2px;
+        font-family: 'Montserrat-Medium', sans-serif, Arial, Helvetica;
+        position: relative;
+        display: inline-block;
+    }
+
+    body .logoTCS {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        height: 80px;
+    }
+
+    body .openbtn {
+        position: fixed;
+        top: 15px;
+        right: 10px;
+        z-index: 4;
+        font-size: 35px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 8px 17px;
+        border: none;
+        display: inline-block;
+    }
+
+    body .emailSide {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-align: center;
+        padding: 0;
+    }
+
+    body .workTime {
+        font-size: 18px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    body .email {
+        font-size: 19px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    body .twoInformation {
+        height: 105px;
+        background: #0f0f0f;
+        font-family: 'PTSans-Regular', sans-serif, Arial, Helvetica;
+        width: 108%;
+    }
+}
+

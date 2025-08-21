@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendClothesTheShop</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/headerInformation.css">
+    <link rel="stylesheet" href="../styles/footerContent.css">
+    <link rel="stylesheet" href="../styles/font.css">
+    <link rel="stylesheet" href="../styles/mobileVersion.css">
+    <link rel="stylesheet" href="../styles/SelectLanguage.css">
+    <link rel="stylesheet" href="../styles/titleText.css">
+    <link rel="stylesheet" href="../styles/navContainerInformation.css">
+    <link rel="stylesheet" href="../styles/catalog.css">
+    <link rel="stylesheet" href="../styles/shoppingBasket.css">
+</head>
+<body class="scrollable">
+    <header class="siteHeader">
+        <section class="oneInformation">
+            <img src="../images/phone.svg" class="positionPhoneLogo" alt="IconHeader">
+            <img src="../images/door.svg" class="positionDoorLogo" alt="IconHeader">
+            <img src="../images/arrow.svg" class="positionArrowLogo" alt="IconHeader">
+            <label>
+                <span onclick="myFunction()">
+                   <input class="positionTextPhone"
+                          type="text"
+                          value="(+380) 50-773-2506 | Працюємо 7 днів на тиждень | 9:00 — 18:00"
+                          id="myInput"
+                          readonly
+                   >
+                </span>
+            </label>
+
+            <a href="accountRegistration.html" target="_blank">
+                <button type="button"
+                        class="positionAccountLogin1"
+                        onclick="applyFocus()">
+                    Реєстрація
+                </button>
+            </a>
+            <a href="accountLogin.html"
+               target="_blank">
+                <button type="button"
+                        class="positionAccountLogin2"
+                        onclick="setFocusAndBlur()">
+                    Вхід
+                </button>
+            </a>
+        </section>
+        
+        <section class="twoInformation">
+            <a href="TrendClothesTheShop.html">
+                <img src="../images/tcs-logo-removebg-preview.svg" alt="logo" class="logoTCS">
+            </a>
+
+            <form id="app-cover">
+                <div id="select-box">
+                    <input type="checkbox" id="options-view-button">
+                    <div id="select-button" class="brd">
+                        <div id="selected-value">
+                            <span>en</span>
+                        </div>
+                        <div id="chevrons">
+                            <i class="fas fa-chevron-up"></i>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div id="options">
+                        <div class="option">
+                            <input class="s-c top" type="radio" name="platform" value="">
+                            <input class="s-c bottom" type="radio" name="platform" value="">
+                            <i class="fab fa-codepen"></i>
+                            <span class="label">RU</span>
+                            <span class="opt-val">RU</span>
+                        </div>
+                        <div class="option">
+                            <input class="s-c top" type="radio" name="platform" value="">
+                            <input class="s-c bottom" type="radio" name="platform" value="">
+                            <i class="fab fa-dribbble"></i>
+                            <span class="label">EN</span>
+                            <span class="opt-val">EN</span>
+                        </div>
+                        <div class="option">
+                            <input class="s-c top" type="radio" name="platform" value="behance">
+                            <input class="s-c bottom" type="radio" name="platform" value="">
+                            <i class="fab fa-behance"></i>
+                            <span class="label">UA</span>
+                            <span class="opt-val">UA</span>
+                        </div>
+                        <div id="option-bg"></div>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+
+        <div class="basket">
+            <svg id="openCart" class="show-cart-button" onclick="toggleCartn(event)" viewBox="0 0 23 24" fill="none">
+                <path d="M20.3849 7.28353C20.2993 7.15391 20.1849 7.04797 20.0515 6.97478C19.9182 6.90159 19.7699 6.86332 19.6194 6.86327H6.89188L5.81721 4.16232C5.6763 3.80664 5.43769 3.50277 5.13164 3.28926C4.82559 3.07574 4.46587 2.96218 4.09811 2.96299H1.92548V4.91313H4.09811L8.516 16.0143C8.58676 16.1919 8.70614 16.3436 8.8591 16.4504C9.01206 16.5571 9.19175 16.614 9.37555 16.614H16.8256C17.214 16.614 17.5613 16.3614 17.6982 15.9821L20.492 8.18157C20.5448 8.03396 20.5626 7.87515 20.544 7.71875C20.5253 7.56235 20.4707 7.41301 20.3849 7.28353ZM16.1803 14.6638H9.9967L7.66855 8.81341H18.2756L16.1803 14.6638Z" fill="#F7F7F7"/>
+                <path d="M9.84116 20.5143C10.6126 20.5143 11.2381 19.8595 11.2381 19.0517C11.2381 18.2439 10.6126 17.5891 9.84116 17.5891C9.06968 17.5891 8.44427 18.2439 8.44427 19.0517C8.44427 19.8595 9.06968 20.5143 9.84116 20.5143Z" fill="#F7F7F7"/>
+                <path d="M16.36 20.5143C17.1315 20.5143 17.7569 19.8595 17.7569 19.0517C17.7569 18.2439 17.1315 17.5891 16.36 17.5891C15.5885 17.5891 14.9631 18.2439 14.9631 19.0517C14.9631 19.8595 15.5885 20.5143 16.36 20.5143Z" fill="#F7F7F7"/>
+            </svg>
+        </div>
+    
+                    <span class="totalBasket" id="cartTotal"></span>
+                    <span class="totalBasket" id="total-items" >0.00 USD</span>
+
+            <div id="cartPopup" class="cart-popup">
+                <div class="cart-header">
+                    <span id="closeCart" class="close" onclick="toggleCartn(event)">&#9587;</span>
+                    <h2 class="outTotalMargin">Ваша корзина</h2>
+                    <hr class="lineSoon">
+                </div>
+                <div class="basketCover">
+                    <div class="emptyShoppingCart" style="display: none;">
+                        <ul class="details">
+                            <h3 class="titel">Your clothes</h3>
+                            <li class="list">Your size</li>
+                            <li class="list">How many clothes</li>
+                            <li class="list">Your price</li>
+                            <li class="list">
+                                <p class="moreLess">+</p>
+                                <p class="moreLess">−</p>
+                            </li>
+                        </ul> 
+                    
+                        <div class="generalStabilization">
+                            <svg class="emptyBasket" height="155px" width="130px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 385.019 385.019" xml:space="preserve">
+                                <!-- SVG content here -->
+                            </svg>
+                        </div>
+                    
+                        <div class="shop-container">
+                            <p class="shop">Have a nice shopping</p>
+                            <svg fill="#000000" height="25px" width="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 240 240" xml:space="preserve">
+                                <path id="XMLID_467_" d="M225,30H15C6.716,30,0,36.716,0,45v150c0,8.284,6.716,15,15,15h210c8.284,0,15-6.716,15-15V45
+                                    C240,36.716,233.284,30,225,30z M210,60v29.999H30V60H210z M30,180v-60.001h180V180H30z"/>
+                            </svg>
+                        </div>
+                    </div>
+                  <div class="container" id="outerContainer">
+                    <div id="cartContent" style="display: none;">
+                            <div class="cart-content" id="cartBaket">
+                                    <div class="frame" id="cartImage">
+                                        <button class="itemCart" onclick="hideContent()">&#215;</button>
+                                    </div>
+                                    <ul class="item-details">
+                                        <li>
+                                            <h3 class="basketData" id="itemTitle"></h3>
+                                        </li>
+                                        <li>
+                                            <p class="dataColor">
+                                                Размер: <span class="basketData" id="cartSize"></span>
+                                            </p>
+                                        </li>
+                                        <li><p class="dataColor">Количество: <span class="basketData" id="itemCount"></span></p></li>
+                                        <li><p class="dataColor">Цена: <span class="basketData" id="itemPrice"></span></p></li>
+                                        <li>
+                                        <div class="navabsolute">
+                                            <button id="increaseButton">+</button>
+                                            <button id="decreaseButton">−</button>
+                                        </div>
+                                        </li>                                        
+                                    </ul>
+                                </div>           
+                </div>
+                <div><span id="total-items"></span></div>
+
+                <div id="targetDiv">
+                        <div class="total">
+                            <p class="totalPayable">
+                                <strong class="cart">
+                                    Итого:
+                                </strong>
+                                <span class="cart2"
+                                      id="total-amount">
+                                0.00$
+                            </span>
+                            </p>
+                        </div>
+                        <div class="wrapper">
+                            <button class="color">
+                                <span>Оформить заказ</span>
+                            </button>
+                            <div>
+                            </div>
+                        </div>                   
+                </div>
+            </div>
+
+
+    </header>
+
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#215;</a>
+        <a href="#" class="linkSize">Футболки</a>
+        <a href="#" class="linkSize">Худі</a>
+        <a href="#" class="linkSize">Рюкзаки</a>
+        <a href="#" class="linkSize">Поло</a>
+        <a href="#" class="linkSize">Сорчки</a>
+        <a href="#" class="linkSize">Шапки</a>
+        <a href="#" class="linkSize">Кепки</a>
+    </div>
+
+    <div class="filterCover" id="filterCover">
+    <main class="product">
+        <div class="productContent">
+            <div class="productSlider" color="white">
+                <div class="productSliderCenter">
+                    <div class="productSliderShadow">
+                        <div class="productSliderShadowContent">
+                            <svg width="400" height="400" viewBox="-200 200 1200 400">
+                                <stop offset="0" stop-color="#1d1d1f"></stop>
+                                <stop offset="1" stop-color="#111113"></stop>
+                                <path class="productSliderShadowBlackGradient" fill="url(#productSliderShadowBlackGradient)" d="M-.5-.5h800v800H-.5z"></path>
+                                <stop offset="0" stop-color="#dddadb"></stop>
+                                <stop offset="1" stop-color="#ebe6e8"></stop>
+                                <path class="productSliderShadowWhiteGradient" fill="url(#productSliderShadowWhiteGradient)" d="M-.5-.5h800v800H-.5z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="carouselRoot productSliderList" >
+                        <div class="carousel carouselSlider" style="width: 100%;">
+
+                            <div class="productSliderArrowLeft hoverable shown" >
+                                <div class="icon productSliderArrowBtnLeft iconAnimated">
+                                    <svg class="arrow1" xmlns="http://www.w3.org/2000/svg" viewBox="X Y WIDTH HEIGHT">
+                                        <path d="M0,19c3.7-3.3,6.8-6.2,10.5-9.5C6.8,6.5,3.7,3,0,0C0,6.3,0,12.7,0,19z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="sliderWrapper axisHorizontal" >
+                                <ul class="slider">
+                                    <li class="slide">
+                                        <picture></picture>
+                                    </li>
+                                    <li class="slide">
+                                        <picture></picture>
+                                    </li>
+                                    <li class="slide selected previous">
+                                        <picture></picture>
+                                    </li>
+                                    <li class="slide">
+                                        <picture></picture>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="productSliderArrowRight hoverable shown">
+                                <div class="icon productSliderArrowBtnRight iconAnimated">
+                                    <svg class="arrow2" xmlns="http://www.w3.org/2000/svg" viewBox="X Y WIDTH HEIGHT">
+                                        <path d="M0,19c3.7-3.3,6.8-6.2,10.5-9.5C6.8,6.5,3.7,3,0,0C0,6.3,0,12.7,0,19z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="productInfo" color="white">
+                <div class="price productInfoPrice">
+                    <div class="priceCurrent"><span>575&nbsp;UAH</span></div>
+                </div>
+                <hr>
+                <div class="productInfoDescription">
+                    <p id="text1"></p>
+                    <p id="text2"></p>
+                    <p id="text3"></p>
+                </div>
+                <hr>
+                <button type="button" class="productInfoSizeChart">служба підтримки</button>
+                <hr>
+                <button type="button" class="productInfoCare">переглянути інший товар</button>
+                <hr>
+                <div class="productInfoSizes" >
+                    <div class="productInfoSizesTitle multilingual" data-lang="en" data-key="ChoosSize">Виберіть розмір:</div>
+                    <div class="productInfoSizesList">
+                        <div class="productInfoSizesListContent">
+                            <button type="button" class="productInfoSizesSize">M</button>
+                            <button type="button" class="productInfoSizesSize">S</button>
+                            <button type="button" class="productInfoSizesSize">XS</button>
+                            <button type="button" class="productInfoSizesSize">L</button>
+                            <button type="button" class="productInfoSizesSize">XL</button>
+                            <button type="button" class="productInfoSizesSize">2XL</button>
+                            <button type="button" class="productInfoSizesSize">3XL</button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="productInfoCountCounter">
+                    <button type="button" class="minus-btn" onclick="updateItemCountProductInfoCounter(-1)">
+                        <div class="icon productInfoCountMinus iconAnimated">
+                            <svg class="minus" xmlns="http://www.w3.org/2000/svg" viewBox="">
+                                <path d="M9 4v1H0V4z"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    <input class="productInfoCountInput" value="1" readonly="">
+                    <button type="button" class="plus-btn" onclick="updateItemCountProductInfoCounter(1)">
+                        <div class="icon productInfoCountPlus iconAnimated">
+                            <svg class="plus" xmlns="http://www.w3.org/2000/svg" viewBox="">
+                                <path d="M9 4H5V0H4v4H0v1h4v4h1V5h4z"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+
+                <button onclick="showCartData()" type="button" class="productInfoAddToCart">
+                    <span class="multilingual" data-lang="en" data-key="BasketAdd">Додати до кошику</span>
+                    <div class="icon product InfoAddToCartArrow iconAnimated">
+                        <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="">
+                            <path fill="white" d="M12 3.7v-.1-.1-.1c0-.1-.1-.1-.1-.2l-3-3C8.7 0 8.3 0 8.1.1s-.1.6 0 .8L10.3 3H.5c-.3 0-.5.2-.5.5s.2.5.5.5h9.8L8.1 6.1c-.1.2-.1.6 0 .8.2.1.6.1.8 0l3-3c0-.1 0-.1.1-.2z"></path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <ul class="contentFooter">
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="T-shirtsFooter">t-shirts</a></li>
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="SweatshirtsFooter">sweatshirts</a></li>
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="HoodiesFooter">hoodies</a></li>
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="BackpacksFooter">backpacks</a></li>
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="PoloFooter">polo</a></li>
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="ShortsFooter">shorts</a></li>
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="HatsFooter">hats</a></li>
+            <li><a href="#" class="linkFooter multilingual" data-lang="en" data-key="CapsFooter">caps</a></li>
+        </ul>
+    
+        <div class="positionlogoTCSFooter">
+            <a href="TrendClothesTheShop.html">
+                <svg class="logoTCSFooter" width="91" height="73" viewBox="0 0 91 73" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.148254" y="0.025177" width="90.0515" height="72.2927" fill="url(#pattern0)"></rect>
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_48_95" transform="matrix(0.00185403 0 0 0.00230947 -0.0348865 0)"></use>
+                        </pattern>
+                        <image id="image0_48_95" width="577" height="433" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkEAAAGxCAYAAABlfmIpAAAACXBIWXMAAAPoAAAD6AG1e1JrAAAybklEQVR4Xu3dCbhdVX0o8CT33tzMc0JmSMIog1BmAjKPlYpapHVAKlbB1ipVWh/P+tpqfc+vtX2t+tTaqlWrgkzKIMiojEmAkAABQkLmeZ6HO+StTXPp9ZLknnvu2ufsvc/vft/5Mty9/+u/fmudvf9nT6dHDz8ECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgkJZAz7QCFynuxEMmHxP60zu8erXrV+vev+/LsNT/a8+0r3X2tFug/d87W29f/Ptbv7OhStZreyXL1u19vZHv+rVr5m7dumV9Z0HS+n1jY5+6fgMGjGqob+hX39DQt66uvqFnz98ap5hz/E3D1tbW5vDT1NLSvHvXzp2bNm/auCatPmYhbt++/Xr37dd/REPv3v3r6+v71NXVNYS82myjGu/Z02NPcG1qbmra2dTUtH37tq1rd+3auSsLDnIgQKBYAjE3XsWS2dubsy+49OOXvevKvwn/HNxho5/YJUVRxx1BTNNSC5cYbba11b7o6VgAtbXTVgDuuPXH3/vsjKce+24lBr9n+Jk05fAzDzvq6PMPnjTltDFjJxzdr/+AoR0Ks/Zj0pbWgXz2Z9yZfdvvE4uWPXv27AoF4ZJlSxfNWjDv1cdefmn2fRvWrV1UCZfYbfRubOx/xNuOvfjQw486e8LBk08ZNXrslIZQYO51TnzbjBPX9rYdnbszL9vmXktoozkUQhtWLFvywqIF85+e+8qLDy6c/9oTwbyzMYpNIx4BAgUT6M5GqmAU++5OKII+E4qgf6iJzpbRyVAEXReKoG+XsWrJqxx59HEXH3/iaX9w5NHHXhKORowuecXqLrhr5Yplr8yZPfPW52Y8+Z9rVq1cUN10Dtx6cO153AknXXPsCSdfNfnQI84IR3oGZjjflu3btq18dc7sX856dvpPX35p1kMZzlVqBAhkWKA+w7llJbX2p8CyklOW8mg7KhQ9pwkHTzr599//R98YPXb8CSF43uZq4+gx496evM658LIbnp3+5H/ee8fNNyXndqJDdTPgKVPPvvbSy9/7+XBU7ZBuhqrU6nX9+vcfd8LJp380vK4OR4im3/rj739q6eIFz1UqAe0QIFAMgbztWKqhnlwD42f/AtGPJvbu3dhw2RVXfuW0M8+9LpwBS07D5PqnV69ew04+7cxPHn7k0Zffc+ctN856dtqtWejQiFEHTX7vH1zzncmHHXFeFvIpM4feY8ZNOPNPP/v5h59+/JFv33nLj/6yzDhWI0CgBgUc5eh80KPv5DtvMldLRPXpP2DgiD+98a+eOf2s824oQgHUfiQHDxl6yPuv+fgP/+DqP/5WtUd40qGHT/305/7msZwXQG8yhrkyOMyZG2+46YtPhTnUv9q+2idAIB8CiqB8jFOWs4xWBPXr13/oR66/4ZcHjR57XJY73M3c+oRTOB+/6kMfTfU6qgPleMjkw864+o8/eUtDQ++x3exL1lbvGU4/nvaR6z99X9YSkw8BAtkUUAR1Pi7RdvKdN5XLJaL5XHPdp+4cP/GQk3Kp0MWkf+eUM6698LIrPtfF1bq9+LDhI8Zd+4k//1koOItWAL1pM37ipDOv+/TnftVtLAEIECi8gCKo8yGOtpPvvKlcLhHF56LfveKmgycd+o5cCpSXdN35l7zzf4SLvo8qb/Xy1rrwd9/9t+EW+MIWQG0q4VEKF15w6btuKk/JWgT2K9D2WIgo2z3O1RdwYXT1x6DmMxg7fuLR5170zhtrDaJnz16DLv293/+7733r/76nEn2ffNiR55xw0ql/WIm2stDG+Re/8zMvzXr25yuWL30pC/kcKIfzzz//XVOnTr1o7zLJ84+SnWxy5+X+Hph6oGcklfr8pPbPBuuYXsdnQPV46KGH7n3iiSceOFA/jjvuuPOOP/74y8Iyje36krTTsS/Jr/f1jLX2uR/oGVTt0+jY37ZnuLU906rtw/4b8WbPnn33888///MD9eOwww47dezYsR8KywwJr+TBoO2fjbWvvyfhkj521s99FVEdn8fWZtN+2Y5F15a5c+f+44oVK6ZlfW5nPT9FUNZHqAbyO+vci28Id1AlG5ua+wnPQLosHAE7fdGCeU+l3fl3v+9D3wiFV+7vtivVqVdd3bAzz7v4hp/96N8/Wuo61VruxBNPfMc111zziWq1X0K7LatXr17TWRE0ZcqUky6++OLrQrzMXpy+PTynorMiaPz48e879thjPx76kdV95J5169Y9pQgqYeZ2sojTYd03FKEbAgMGDhp+7PEnXtGNEHlftfHiy9/zN2l34sRTp35g1Ogxb0u7nazFDw+AfHf/AQOGZy2vfeSTPBk7yz/Jo0JKOcKUHLHIbAG0F7iUU1nJ1yRltQBKuvGWI3VZnjxZzk0RlOXRqYHcTj79rGvC91HlYSeV2mhMOezIM0aMPGhiag2EwGede+Gfphk/q7HDM6eGnXTaWR/Jan7t8krtoaNV6HspxVIV0nqzyVLyy8O+samaiEVpOw8DXW3rUj41VDvHarbfLZ9whOKD1Uw+I233P/yoYy5NK5dQYI0bM27i0WnFz3rck06denXWc9z7yT7raZbyXk+OGJWyXDX7WkoRlPU+JH6KoAizSBHUOSKjzo3KWmLosBGjR44aPbmslQu20iFTDjszrS6F2OeG2APSip/1uOELYCcNGTrsoKznWZD88lA8FKUIai7InKlqN+zgO+dPJtquzherySXa7vooq/PjJkw8MaxYMxfqHghp3ISDf6csxBJWGjd+YhI7DzunEnpT1iKN48YffGpZa1ZupaKMTx72KUUpgkrpR+VmcE5byvKFX5kgXbVy+QszZzz1s/0k0/7itPYbsf1Nzva3PCbLJBdD7g6v5HqAvhMnHXre8BEju/0t6atXLX912eJF0/fm3HZ4uq3t9reLdrxFdn+347a/XiGJk8RM4rSuW7v65XIHauRBY44M6ya3n8b8STx3btq4YcOGdWsXb9u2dV1zc9OO1paWtkPH++tjkkPHHVH4NoaedeEuo8Y+ffoOHjR4yJhwaml8fUNDclQl6ntn+IhR42MitI8VnNN4FtHO1taW7evWrlm9acOGFTt2bN/Y2tK8q7W1tSufTnuGb6vvXVffEL67dcCIcGRwQvhqkaHJeyGyRf3I0cHghZm/iBy31sKVstPNQzFXS/2otTna5f5G3ZB3ufUcrPDKi7PuSl6VSPXKD157SyiCruxuW6/OeeGXd99+8w3djZP2+sOGj5wSs40F8+c+8vijD/y/BfPmPrJt65Z1MWO3xaoLe+wxY8e//e0nnnLV1LMvuL6uvj7KnTDJ96SNHTfhmOXLlrwYO+/gHPOU467npj/5k+lPPfb98K3tTzft3h31KOmAAQNHhecZXXDWeRd/ZuIhk6MdHQsFVqoXnscesxzHy0MRVApvHo5oldIPy3QioAjK1hSJdYdIVz6NV01g4KDB0Y5+rFm1cs6/ff0fLm1ubo66U+6I09LS3LR0ycJnktfC1197KvkOrrBMcmSsuz8NQ4ePPCKNIig4D+lucnvX3/P0449+746bf3B9pHhvCbN165bVs2fO+PErc2b/4jM3fWn2kGHDJ8Voa9CgwaNixBGjUwFFUKdE0RYoinU0kHICqXbLUUtvnVjjEWOnnF4v90bu269frFvjd99/9+1/nXYB1BHkpdkzb3/5xeejHSUMz0wakwZ6+JqM5Jkn3f4JR33W3n/XbRV5svfuXbu2/uqeO78Yko5yB0zffv1jzbVuOwpQdYGinA5TBEWYSrF2uhFSESIIlPLmLAUqF2+O+vqGKNd+hKMzm19+cdatpcDEXua56U99P8SMcuQtFCuDYucXdv7J1xdEmQ/LliyaFx62uzV2jvuL98KsZ24J1xjtiNFeuI6rT4w4NR4jyjyqccOY3TceETQVQREQI4aINaljxYnYtbeGqq+vj3KEYs3qVavDxc+xCsgu9XnZ0kUzwgo7u7TSfhZuqI+/o95baEaZD+Ei+IUx+llqjHA0aNv6tWtWlbr8gZYL1261fZdVjHBpxIgyRmkk1sWYRelHF7tdlcXtvyOwQ4yAGDFETY1H+L6wKKftNqxbU9Gdc/vxXrdm9fJwtCLKtVzJXWgR59Iboerq65JCM8qOafOmjStj59dZvFB4vd7ZMqX8vi7SXCulrQIvE2UeFdin0l0zHhHEa2qnG8Er7RCxxqOm3hzbtm5dn/bAHCj+rp07Yl2Mnda4RYkbboPfXGnncJffmkhtRjGIlMu+wlTlSGaK/RE6fYGsz+n0BSK0EGunGyEVIWJ9Yo8YJ+1BifImbm5qilWElNXfcEF2lCNBKY1btJ1ruPYqeQZTRX+aqjy2Fe1sMRqLNt9S5Iiy3Ukxv1JDF6UfpfY3leUUQamwlh3UpC6DrnVPnNNRZTT9xiqh+ax/A3i5Xfut9fYE6CiBuhAk1qnGLjRp0f0L2D6ZHYUTUAQVbkhz1SEb1fSHK+/GsfKPFSf9EdMCAQIVE1AEVYxaQwQ6FbCj7pTIAlUUMD+riL+PpvNw6jFbYvvIRhGUrSGykcnWeJSajY1RqVJdX857outm1qgNAdudCOOsCIqAGDFErU1qO7iIk2c/oZI5lWfnPOee/uhqgQCBbgkogrrFZ2UCBAgQaCegaK3cdKi1D82pyCqCUmEVtEQBG8wSoSxGgACBDgKKoAhTQhEUAVGImhewMUpvCiiU07MVmUDNCyiCan4KACBQsoBir2SqQi6oIM3WsHo/RhgPRVAExIgham1S26hGnDxCESBAgEDXBBRBXfOyNIE8Cig28zhqciZwYIFa+9CcynxQBKXCWvWgdnpVH4LMJGAuZGYoaiKRouyYvW9qYrr26KEIqpGBLng3i7LhLfgwldU9Y1sWm5VqQMB7I8IgK4IiIGYwhE8xGRwUKRHIuYCdbs4HUPpvFVAEZWtWKF7KG4+iuNnJlDf+1iLQFYFS3melLNOVNi2bUQFFUEYHRloECLwhEGtnlPVCOVY/TRsCBLogoAjqAlaOFs36Bj9HlBVNNY0dYRoxK4qiscwI2K5kZigkEktAERRLUhwCBNIQsONNQ1VMAgTeEFAEZWsixNrgx4qTLZ3sZhPraEusOGlJVSO/WHM5Vpy0bMUlQKAKAoqgKqBrMrpANXbO0TsRAhalHzFtbKNiaopFgMBvCdjAFHNC+NRbzHGtxV6Zy7U46vpMoEICiqAKQWum0AJ21OkNb6yjY83ppRglsjkUhVEQAl0TqO/a4pYmQGAfArF21D6UdMBdsWzJtBdnPTcy/Hfd3tOFrR3+TOw7vtqivFlYbNqwfo6ZS4AAgY4CiiBzopoCsYqHavYhaTvZMcf4KYpHDIs3Ykx74tFvJq9oAQUiQIBAOwFFkOlAoPsCm0OIHeHVduShrZjpWNS0//+2vyfrJEeAkvW3dT+Vt0RQWKWAKiQBAsUQUAQVYxz1oooCP/7+t/+kvr6+MaTQvuDoWHx0vOajfRGU/G7PunVrXqliNzRNgACBmhNQBBVzyH36r+C4Lpg/97EKNldOU+ZDOWrWIZBtARfTRxgfF2JGQBSCAAEC3RSwQ+smoNUJlCOgCCpHLfvr+OSf/TGSIQECBAhUWUARVOUB0DyBlAViFsSOVqQ8WMJXRKCUeVzKMhVJViPpCiiC0vXtavRYb7yYO76u9sHy2RMwH7I3JkXNKNY2rKg+MfvFOoKmIigCohAECBAgQIBA/gQUQfkbMxkTIECAAAECEQQUQREQhSBAgACBQgk41VSo4dx/ZxRBNTLQBe+mDdaBB9g1QQV/A+helwRsL7rEVeyFFUHFHl+9I0CAAAECBPYjoAgyNQgQIECAAIGaFFAEZWvYY522qLXDvbXW32rNWs7VktcuAQKpCCiCUmEVlEAhBWIV6YXE0ancCCjmczNU6SeqCErfWAvpC9iopW+sBQK1JJCHbUoecsz8nFEEZX6Iykqw1t4ctdbfrkyKeDY9e8SL1ZUeWJYAAQIpCSiCUoIVlkBGBKKdwurVq64+I32SBgECBKIIKIKiMApSZQFHKPY/AIlNlEKosbGxf5XHWfMECPy3gO1ehNmgCIqAKASBzArs2dMaqwgaMHDQyMz2U2IECBAoQ0ARVAZaDlbxCSEHg1SJFJuamnaEdpJCqNs/I0YeNKXbQQQgQIBAhgQUQRkajFif2LPVpYpko+jbD/O2rVuiFUETD5l8VF1dXe+KjKhGCKQnYHuRnm3uIiuCcjdkEibQNYGWlubmrq2x76Ub+/Q96B3nXfKXMWKJUVgBBUblhpZ1BGtFUAREIQhkWWDb1q3J0aAoPxdf/p6bTj79HddHCSYIAQIEqizgltcqD4DmCaQtsHHDuuWDBg85JEY7PXv27PP777/m6+dedNlnFsyb+8TqVSvmbt2yefWunTs3t7S07A5tHOhOtJLvUmttad7d3Ny8q7m5aeeO7ds3bN68cenOHTu2xOiDGARKEHCUpQSkIiyiCCrCKOqDDdYB5sDa1avmTjxkyhkRp0mv4SNGTUleHWImRU77sSi56Nkbp23dZL3k1dLutXvL5s0blix6fea8uS//es7s536xYf26RRH7JBQBAjUooAiqwUHX5doSWLFsyay9xURdyj3vWIyWW5wm6yWv5HR9w96c+w8cNGjo2449fnJ4vff33vuHf7d86eKXZ8+ccdtz05/80aaNG5an3DfhiyNQ7rwsjoCevCngmiCTgUDBBRYvfH166OLOgnVz4NjxE0+55PL3fuXGL/zvZ8+/5Pf+R8H6pzsECFRAQBFUAWRNEKimwLIlC6c1Ne3eVM0c0my7oaH36It+94ovfeyTN97Xp2+/wWm2VeOxHUHJ1gQwHhHGQxEUAVEIAlkWCA9MbJk546nbs5xjhNx6TTn8qIv//KYvTp84acopEeIJQYBADQgogmpgkHWRwCMP3PuPra2tq4suMXjI0MP/6LpP3xyebn1o0fuqfwQIdF9AEdR9QxEIZF5g/do1C5549IHvZj7RCAn269f/kI/92V/cNfKgMUdECCdEbQo41VQj464IqpGB1k0C9919+1+Fu6jm1YJEOCJ05Ic/9sn/rIW+6iMBAuULKILKt7MmgVwJNDc1Nd91+08+F5Iu7EXS7Qdk5KjRx5917kV/lqtBkiwBAhUVUARVlFtjBKor8MLMZ257+L67vhqy2F7dTCrSet1Z5130iYq0pBECBHIpoAjK5bBJmkD5Avffc8cXf/Pw/f8cImwtP0o+1hw8ZNjkE0+denUOsu3q07Vz0CUpEsi+gCIo+2MkQwLRBe654+ab7rj5BzeE7/taGT14tgI2nHnORZ/KVkqyIUAgKwKKoKyMhDwIVFjg6ccf/bdv/tOXLw/fxXV/aLqwp8fGjp8Qvuds5MQK82qOAIEcCCiCcjBIUiSQlsCSRQue+c7X/v6Sf/3a318evl7j8dBO8k3trWm1V6W4fQ6ZfNjUKrWtWQIEMizgC1QzPDhSI1ApgflzX374G1/90sOjRo898oijjrlw0qFHnD1uwsS3h2tqRvTs2bMx5JF8kWletxeN4XvGjn92+pM/qZSndggQyIdAXjdq+dCVJYGcCaxeufyV5PXYI7/6WpJ68l1co0aPOWrIkGFjBw4afFDvxsYB4bu6+tXV1bV9u3u3etizV89edXX1jf37Dxg5ZNjwg8eOm3hEY58+yfd/9elW4A4rhwcnHh4znlgEMiDggY4RBkERFAFRCAJFFdi5Y/umxQvmP724x/yKdDEUV3XjJhx80hnvOP+PTzj59PeHRvvGaHjosOGuCYoBWYwYiodijGOUXiiCojAKQoBADIFwt1pLuDZpWvIKp+F6HH/SadfGiDtg0ODhMeKIQYBAsQRcGF2s8azV3njGSgFH/lf33PF3e/bsSS7U7vZPnz59o55e63ZC+QzgfZbPcZP1AQQUQaZHNQVsVKupn/G214UvfV28cP7MGGn2Cj8x4ohBgECxBGwYijWeekOgUAILX5/3dKQO9erbr1+/SLGEIUCgIAKKoIIMpG4QKKLAujWrY33rfc9eveLc0VZEZ33KpYALvCMMmyIoAqIQVRdwWq3qQ5BOAtu2blmTTmRRCRAg0KOHIsgsIEAgswLNzU27IiXnU3MkSGEIFElAEZSt0bShztZ4yKbKAq2trS1VTkHzxROwnS3emJbdI0VQ2XRWzJCA02EZGozIqdhhRQYVrjAC3hsRhlIRFAFRCAIEciFgp5GLYZIkgcoJKIIqZ62l9AQcCUrPttqRY42tAqjaI6n92ALmdARRRVAERCEIECBAgACB/AkogvI3ZjImQIAAAQIEIggogiIgClF1gVinTKreEQnUrIBTGzU79GV33Jwpm+6/V1QERUAUggABAgQIEMifgCIof2NWSsa1dmSk1vpbyhywDAEC5Qs4ylK+Xa7WVATlargkS4AAgaoJKAyqRr/Pho1HhPFQBEVAFIIAgcwL2GFkfogqlqC5UDHq7DekCMr+GMmwcwGnwzo3sgQBAqULKJRKt8r1koqgXA+f5AkQ6IKAHVsXsCyaeQHzOcIQKYIiIApBgEBqAjb0qdEKTICAIqiYc8DpoWKOq14RINB9gVIK61KW6X4mIlRdQBFU9SGQAAECBxCwMzI9COxbwHsjwsxQBEVAFKLqAo58VX0IUkugVjb0tdLP1CZK5MDGIzJoVsMpgrI6MvIiQCARsDMyD2ILmFOxRXMcTxGU48GTOgECBAgQIFC+gCKofDtrEiBAgEAxBRwtKua4vqVX9TXST90kkJrAORdcemNjn74jQwPJh4rklWxAk+uU2l5tbSf/37ZxTf5sv3zTvLkv3z1/7ssPpZaowAQIJAIKHPPgTQFFkMlAoJsCU8++4KODhgw9vJtherS0tDQrgrqraH0CNSOgmIsw1IqgCIhC1LxAYySBVDZqw0eMGt9/4MAJe3NsfzSqdR9Hqzp25c2cWltbdyxdtGBWpL4KQ4AAgaoLKIKqPgQSiCBQ7VvkY7XfEsHiLSHOv+Tyr5x46tQrwi/aTtW1FTZtebfPv+3vbcVS8ucbxdLOHTte/19/8SfHpJGjmIURiPVeKAyIjmRbQBGU7fGRXT4E6jKe5oCQX78IOQ6LEEMIAgQIZEbA3WGZGQqJ5FggldNYET1ifTqPFacrXatGm13Jz7IECORYQBGU48GTemYEktNFWf6JVUjYXmR5lOVGgECXBWzUukyW6gqxdlapJin4WwRijVtaR5Ri5WfoCRAgUCgBRVChhlNnci6Q9SKoGsVUNdrM+TSSPgECpQoogkqVshyB9AUUQekba4FAKQKK71KUCrCMIqgAg7iPLngDF3Ncy+1V1q9ZKrdfXVnPe6IrWpbNg0BaH5ry0PdoOSqColEKRKDbAmlt1BQA3R4aAWpMIK33Yo0xZr+7iqDsj5EMCRAgQIAAgRQEFEEpoGYgpE/+lR0Enxor613E1syhIo5qun0yZyL4KoIiIApRdYGibAyy3o9q5FeNNqs+oSVAgEBlBBRBlXGudCuOBFVaPE57aY2bQiLO+IhSOwLeMzUy1oqgYg50WjvTrGpVe4NV7fY7G5es59dZ/jF+X2vviRhmtRwjD++ZPOSY+TmkCMr8EJWVYF42+HnJs6xBKOBK1djoVqPNAg6dLhEgsC8BRZB5UQSBau8oq91+EcawEn3IctGdhzmUZb+uzJ9SrEtZpittWjajAoqgjA6MtGpSIOs7maznV5OTRqcJEChfQBFUvp01CeRFIM/FS55zz8v8kOdbBfJwJMh7I8LMVQRFQBSCQMYFbCx79GCQ8UkqPQLVEFAEVUM9/Tbz8CkmfYXKtRDL2466cmOmJQIHEoj1nk5T2fYigq4iKAKiEAQyLpDnjWXM3GPGyviQS+8AAkWZB0XpR1UnqyKoqvypNZ6HTzExO29jcGDNWD6x4nRl7KvRZlfyq6VlizIWpfSjlGWqPfZ5yLHaRp22rwjqlKiiC8QqXmLFqWjnu9FYUTYGafUjTtxam1XdmJBWzbRAnPdD9btYlH5UVVIRVFV+jccQqAs/MeKUG6NXXV2s91FaG7UocXv1itbPkqnr6+t7l7xw50fDojhEyqeoYRhXbmRZR7COtfGOkIoQBMoT6N3Yp395a8ZZq3fvxoY4kVK7gynKxrKhoaHixWbfvv2GRLIVhkCbQJT3A85iCCiCijGONd2LQYMHj6oWQGOfPj17NzbGPFoRvSt79uxpjRG0Z8+eDYOHDK2o9ZBhwyfHyD3EaI3lECmfjmHysGPOQ46lDE8p/XDytxTJAiyjCCrAIOa1Cy0tLc0xcj9o9LhDY8QpJ8aYsRNOCus1lrNux3Wam5t2xIjTMUZLc/OuSHH7HDRm3AmRYpUUZuz4iW8vacHOF2ptatqdim/nTVsiYwKlFEEZS1k6aQkogtKSFbdTgeaw1+90oRIWGDBw0IjhI0ZOKWHR6ItMPuyIi2MVQU1N6RRBzS3xiqBDJh92dnTEAwScNOWIqZHaa23avbslUqw0wtgxp6Fafkz7xvLtcrWmgc7VcBUr2YifzPufftZ511daJ1yv0nDq1HM+Eavd3Tt3bowVq32c3bt2bo4V9+TTz/xgOAVYkWuwpp5z4af7DxgwMkbuu3fv2h0jjhiFECil4HQ6rBBD3XknFEGdG+VxiVLe5FXv1/ZtW1fHSuLMcy/6+KRDD6/YUYqGht69PvCR6+8aMnTYmEh9aNm8aePSSLF+K8zWLVsS5yhzYtDgoRPe/b4PfSvckBfrYvB9dvm4E0666vJ3X/WF8MsoO6NtW7asT8M2Yswo4xMxn32FykOOsQiizLtYyYiTnkB9eqFFrqJALjZWmzZuWBTLKFy0O+DaT3zm5y8+/8ydc1956cGVy5fO2rxpw5JQAEQ5utLY2Niz/8BBo0eMPOhtB0869B0nnHzaB4aPGBXzFNyOdWtXvRbLo32c4JwUV8mRkCjXLp1w8ukfPOzIo8959eUXH1qxdPGsjRvXL92xffu65nA6r7W1pdRTnG/M0TBu4c77+nBwqe+wcIH72FEHjT0qnGI8J1wLdESsfJN2Qo7L07CNGDMX79mI/RWKQCYEFEGZGIY3k6ipDeH6tWvmx+QPt3APDjvoD4fXB0Lc5CLYZMffHO4KamkNV2Hvbasrxj3DXjo8BuiN5xAl75XkLrA+e/+MmXqPcD3QtrVrVs+LGnRvsLVrVr0SswhKwobrsMafeMoZH+5xyhnJP5ML3JM70BLbtlfy/23WHc3bPmUnfyZHo5NX4pvap+91a1ZFnWspjFNX5mUKzUcLqR/RKDsNlNr7pdOWC7SAIqhAg5m3rqxaueylkHNy51KUIxTt+p/M64Ft/w5HG3rU1Wd7qq9eufz1tMZvxbIlL4brr7aFU3hvmkRuK9u4PXq0rFi2dE7kPscOp3iILbr/eKUUD1m+iL6tZy5niTBnIEZAFKI8gaWLFj4TjtJsL2/tYq21ZNGCGWn26PXXXpmWZvyMx96+eNHrqfpG6H8eiqBSiocIFKmHKKUfUZ6tlXJP7L8jAEOMgJjBEKW8yaue9o4d2zcumPfqs1VPpPoJ7A4Ov0kzjeefnXZbiF+Td0ht27pl5eIF859L0zdC7DwUQaV0Mw/9KGX76EhQKaNdgGUUQQUYxH10oZQ3eSZ6Pu3J33w3JBLloYmZ6FAZSYTrlda/+vIL95WxasmrzH5uxo/C3XgrS16hOAu2znj6sR/moDt5KB5KYczDEZRS+qEIKkWpAMsoggowiHkugsLdXD8Lt4ZHu0ssj8M54+nHbwl3V21LM/fwYMo9v37wl/8S2ijKzrYkrvCAxBVPPPrgt0pauLoLVfx72VLqbh4+gJVSqOXhfZKHHFOaZvHCKoLiWcaIlIcNSIx+vhkj7JybZzyVi0/qUfvdFix0f+UD99755VSCdwj62CMP/MuWzZsWV6KtrLQx89mnbw1F9pqs5HOAPJKjoTvDK/kzOQqR7Kjb/jxQ+smOMFm27ZWs0/HV/vf7+3vbOkn7ba/kcQfJKdTkd225dUaZXOO3sd16nS3f/vft7y7s+PfOluvYrzaX9v1Klkn6UcrXpyTLJR9M3rjDtJ1vrP60v4uyKzHb+rNhb1+6sq5l9yGQ9bs6am3QYlX2uSqmnvzNQ18/9cxzPjxgwMBJtTbgTz/2yPdDYbKqEv0OX9XW9NB9d/2fK973wW9Wor1qt7F7165Fjz5w7z9WO49S2r/jjjt++vzzzycXbyfv3bbXgVbtuK3Y37aj1G1Bp9ue11577eXO+jJt2rSfLlmyJLnTsX0/2mKXkkuneeyN3Vkq+/v9nhUrVnR6fdiLL774lcWLFz8YgiQHCtoXo8m/k6N27R/z0LFAO1Bu+zNI/r+9076Wa/8Yit1r1qy5t1wE6/23gCKomLOhlI1NZnq+dcvmdTf/8N+u+8h1n74l3M4+ODOJpZxIKH7mPvjLn/9tys38VvinHnv4W8edcPKV4YGE51Wy3Sq0tem2n/7HZ9etWZ2LI1+hwHgxeVXBKWqTy//r586oQasQLBQYryWvKjStyQoLOB1WYfBOmivlU1ApGeeqCEo6NHfOC78Kn9q/Gv5aE3cwtba2rvnJf3z7o+EOuVIOzZcy5iUv8+PvffMPt2zZvLDkFfK34I7HH33ga88/8/St+UtdxgQIVFJAEVRJ7c7bilUEdd5SBpe4767bvjj9yd8kF7Hm4c6MsgXDs5HW33nLDz87f+4rj5UdpBsrhgJo9Q/+9WtXhSNwRfyku3XaE49+7a7bfvJX3SCyKgECNSKgCMrWQNd0EZQMxW0/+f6nHnvk/q+Ev6Z6t1S1hj1cp7L4h//+jaunPfHrH1Qrh6TdxQvnT//nr/z12atWLO/0+ohq5tmVtpPi8v67b//C7T/9wV92ZT3LEiBQuwKKoNod+8z2/O7bb/6fP/ruN6/euGF98p1XRfnZOueFmT/66pc/P/WlWc/dk4VOhbumVnzzn7585iMP3PvFXTt3Zv0LRg9EtnPp4oVPfOfr//Ceh++/+5+yYCsHAgTyIeDC6GyNU6yiNFacqum8MHPG7XNmz7zjvEve+flzLrj0uvr6hlEhmTzO122rVix7NZye+exrr855pGqg+2k4uSbpvl/c+oWnfvPQty+49F2f+51Tzriqvr5+WFg868+tSY6ablu3dvXr9991+5dmPTf9Z1mzlQ8BAtkXyN0FtNknLT/DKz947S0nnTr1yvIj/Nea4XTSd8LRlI91N05W1u/bt9/gY44/8V1HHf32SyYdevgp/foPGBlyS+Xb3LvZ5+QW1l3J96GtWbVy0bxX5zz40uzn7n593qtPhAuhS3lAWzeb7/7q4dvhhx/5tmMvnnL4UedMPGTK6cNHjBzds1evviFy7/Bq6H4LZUVIrhF74zk64YjVpmVLF81ZOP+1J8JTtn8V/pxeVkQrESBAIAgogjI0DU6devZ1k6Ycfn5IKTni0XZ9UPuHobU9r6LjtUPJp/bk9caRkrBzuGfmjKeTr6Mo5M+YcROOPXjSlNPCn8cMHzHq0EGDh4zr3djYv6GhsXdDQ0Ov5Fvj9/6kdo1Va2tL6+7du1uam5t2h6+jWBtO3S0Mhc+8pUsWPb9w/txfh4uONxYBv7FP375jxo4/YdjwEZOGDB0+sd+AASPCt9H3bejdu3+Abv+8lK50d3/PuHlzzoeHSO4M33y/PTzxefuWLZtWrV+3dmE4ovbC2tWrFnSlIcsSIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBAgQqJjA/wcbaoP4n9J/EAAAAABJRU5ErkJggg=="></image>
+                    </defs>
+                </svg>
+            </a>
+        </div>
+        <a href="https://www.instagram.com/" target="_blank">
+            <div class="positionlogoInstFooter">
+                <div class="block">
+                    <img class="imagesBlock" src="../images/Group12.svg" alt="">
+                </div>
+            </div>
+        </a>
+    
+        <div class="positionBlocks1">
+            <div class="email multilingual" data-lang="en" data-key="Support">Email-support</div>
+            <div class="emailSide">developer@beigeHolderCompany</div>
+            <div class="workSupport multilingual" data-lang="en" data-key="TimeSupport">SUPPORT SERVICE HOURS</div>
+            <div class="workTime multilingual" data-lang="en" data-key="MonFri">Mon-Fri: 9:00 - 21:00</div>
+        </div>
+    
+        <div class="positionBlocks2">
+            <div class="paymentInformation multilingual" data-lang="en" data-key="pay">WE ACCEPT FOR PAYMENT:</div>
+            <div class="imgPaymentSystem">
+                <img src="../images/a2.png" class="imagesService" alt="paymentIcons">
+                <img src="../images/a3.png" class="imagesService" alt="paymentIcons">
+                <img src="../images/a1.png" class="smallPaymentPictures" alt="paymentIcons">
+                <img src="../images/wayforpay.png" class="smallPaymentPictures" alt="paymentIcons">
+            </div>
+    
+        </div>
+    
+        <div class="footerDelivery">
+            <p class="multilingual" data-lang="en" data-key="Delivery">Delivery within Ukraine is provided by the delivery service: Nova Poshta</p>
+            <br>
+            <p class="multilingual" data-lang="en" data-key="Delivery2">Delivery abroad is carried out by the delivery service: Ukr Post.</p>
+        </div>
+    
+        <a href="TrendClothesTheShop.html">
+            <img src="../images/tcs-logo-removebg-preview.svg" alt="logo" class="mobileLogoTCS">
+        </a>
+    </footer>
+    </div>
+    <style>
+        .filterCover {
+            filter: blur(0);
+            transition: filter 0.3s ease; /* Smooth transition */
+        }
+    
+        .filterCover.blurred {
+            filter: blur(5px);
+            pointer-events: auto;
+            pointer-events: none;
+        }
+    
+        .no-scroll {
+            overflow-y: hidden; /* Disable vertical scrolling */
+        }
+    
+        .cartContent {
+            display: none;
+            transition: opacity 0.3s ease; /* Smooth transition for opacity */
+            opacity: 0;
+        }
+    
+        .cartContent.show {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+    
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        loadSelectedImage();
+
+    });
+
+    function updateImages(selectedImage) {
+        var images = document.querySelectorAll('.slide picture');
+        var imageArray;
+    
+        switch (selectedImage) {
+            case 'gVqIv3TXEGZHz6y.png':
+                imageArray = imagePaths[0];
+                break;
+            case 'ICBQWQ7B7ZKVEzS.png':
+                imageArray = imagePaths[1];
+                break;
+            case 'image3_1.png':
+                imageArray = imagePaths[2];
+                break;
+            default:
+                imageArray = [];
+        }
+    
+        images.forEach(function(image, index) {
+            if (imageArray[index]) {
+                image.innerHTML = '<img src="../images/' + imageArray[index] + '" alt="Изображение ' + (index + 1) + '" class="basketData">';
+            } else {
+                console.log('Image not found for index', index);
+            }
+        });
+    }
+    
+    function loadSelectedImage() {
+        var selectedImage = localStorage.getItem('selectedImage');
+        if (selectedImage) {
+            updateImages(selectedImage);
+        }
+    }
+    </script>
+
+
+<script>
+    function loadPriceFromLocalStorage() {
+        const price = localStorage.getItem('productPrice');
+        if (price) {
+            document.querySelector('.priceCurrent span').textContent = price;
+        } else {
+            document.querySelector('.priceCurrent span').textContent = 'No price found';
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        loadPriceFromLocalStorage();
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const savedPrice = localStorage.getItem('savedPrice');
+        if (savedPrice) {
+            const priceCurrentElement = document.querySelector('.priceCurrent span');
+            if (priceCurrentElement) {
+                priceCurrentElement.textContent = savedPrice;
+            }
+        }
+    });
+</script>
+<script>
+/*
+
+// Function to update item prices from localStorage
+function updatePriceFromLocalStorage() {
+    try {
+        var savedPrice = localStorage.getItem('savedPrice');
+        if (savedPrice) {
+            var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+    
+            cartItems.forEach(function(itemData) {
+                if (!itemData.priceUpdated) {
+                    var itemElement = document.querySelector(`.item[data-id="${itemData.id}"] .dataColor #itemPrice`);
+                    if (itemElement) {
+                        itemElement.textContent = savedPrice;
+                        itemData.price = savedPrice;
+                        itemData.priceUpdated = true;
+                    }
+                }
+            });
+    
+            // Save updated cart items back to localStorage
+            localStorage.setItem('cartItems', JSON.stringify(cartItems));
+        }
+    } catch (error) {
+        console.error('Error updating prices:', error);
+    }
+}
+
+// Initialize the cart data when the DOM content is loaded
+document.addEventListener('DOMContentLoaded', loadCartData);
+
+        
+
+function updatePriceFromLocalStorage() {
+    var savedPrice = localStorage.getItem('savedPrice');
+    if (savedPrice) {
+        var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+        cartItems.forEach(function(itemData) {
+            if (!itemData.priceUpdated) { // Обновляем цену, только если она еще не установлена
+                var itemElement = document.querySelector(`.item[data-id="${itemData.id}"] .dataColor #itemPrice`);
+                if (itemElement) {
+                    itemElement.textContent = savedPrice;
+                    itemData.price = savedPrice;
+                    itemData.priceUpdated = true; // Устанавливаем флаг, что цена обновлена
+                }
+            }
+        });
+
+        localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    loadCartData();
+});
+*/
+</script>
+    <script type="text/javascript" src="../scripts/website translator.js"></script>
+    <script type="text/javascript" src="../scripts/forBasket.js"></script>
+    <script type="text/javascript" src="../scripts/counter.js"></script>
+    <script type="text/javascript" src="../scripts/https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../scripts/animationTransition.js"></script>
+    <script type="text/javascript" src="../scripts/adaptiveNavigation.js"></script>
+    <script type="text/javascript" src="../scripts/logicalSelect.js"></script>
+    <script type="text/javascript" src="../scripts/adaptiveNavigation.js"></script>
+    <script type="text/javascript" src="../scripts/DimmingButton.js"></script>
+    <script type="text/javascript" src="../scripts/OnlineStore.js"></script>
+    <script type="text/javascript" src="../scripts/copyNumber.js"></script>
+    <script type="text/javascript" src="../scripts/SelectLanguageApp.js"></script>
+    <script type="text/javascript" src="../scripts/slider.js"></script>
+    <script type="text/javascript" src="../scripts/counter.js"></script>
+    <script type="text/javascript" src="../scripts/logicalTouchFocus.js"></script>
+    <script type="text/javascript" src="../scripts/Product selection.js"></script>
+</body>
+</html>
